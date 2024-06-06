@@ -6,11 +6,6 @@ h1 {
     color: #17a2b8;
 }
 
-/* input, textarea {
-    background-color: transparent !important;
-    color: #fff !important;
-} */
-
 .logIn {
     box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
 }
@@ -24,3 +19,8 @@ a:hover {
     text-decoration: underline !important;
 }
 
+#togglePassword {
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}

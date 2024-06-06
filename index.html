@@ -14,9 +14,12 @@
             <div class="logIn w-75 m-auto p-5">
                 <h1>Smart Login System</h1>
                 <input type="text" id="logInInputEmail" class="form-control my-3 bg-transparent text-white" placeholder="Enter Your Email">
-                <input type="password" id="logInInputPassword" class="form-control my-3 bg-transparent text-white" placeholder="Enter Your Password">
+                <div class="password position-relative">
+                    <input type="password" id="logInInputPassword" class="form-control my-3 bg-transparent text-white" placeholder="Enter Your Password">
+                    <span class="position-absolute" id="togglePassword">👁️</span>
+                </div>
                 <p class="text-danger" id="logInWarning"></p>
-                <button class="btn btn-outline-info w-100 my-3" id="logInBtn">Login</button>
+                <button class="btn btn-outline-info w-100 my-3" id="logInBTN">Login</button>
                 <p class="text-white">
                     Don’t have an account?
                     <a href="signup.html" class="text-white text-decoration-none">Sign Up</a>

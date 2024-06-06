@@ -15,7 +15,10 @@
                 <h1>Smart Login System</h1>
                 <input type="text" id="signUpInputName" class="form-control my-3 bg-transparent text-white" placeholder="Enter Your Name">
                 <input type="text" id="signUpInputEmail" class="form-control my-3 bg-transparent text-white" placeholder="Enter Your Email">
-                <input type="password" id="signUpInputPassword" class="form-control my-3 bg-transparent text-white" placeholder="Enter Your Password">
+                <div class="password position-relative">
+                    <input type="password" id="signUpInputPassword" class="form-control my-3 bg-transparent text-white" placeholder="Enter Your Password">
+                    <span class="position-absolute" id="togglePassword">👁️</span>
+                </div>
                 <p class="text-danger d-none" id="emailRepeatedWarning"></p>
                 <button class="btn btn-outline-info w-100 my-3" id="signUpBtn">signUp</button>
                 <p class="text-white">
